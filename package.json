@@ -1,0 +1,15 @@
+{
+  "name": "wdouban",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "repository": "git@github.com:willin/wdouban.git",
+  "author": "Willin Wang <willin@willin.org>",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^4.18.2",
+    "eslint-config-dwing": "^1.2.0"
+  },
+  "dependencies": {
+    "axios": "^0.18.0"
+  }
+}
