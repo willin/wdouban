@@ -37,7 +37,7 @@ yarn add wdouban
 
 #### type
 
-默认值 `book` ，可选：
+类型，默认值 `book` ，可选：
 
 - `book` 图书
 - `movie` 电影
@@ -45,12 +45,20 @@ yarn add wdouban
 
 #### status
 
-默认值 `mark`，可选：
+状态，默认值 `mark`，可选：
 
 - `mark` 想看
 - `doing` 在看
 - `done` 看过
 - `attend` 参与
+
+#### page
+
+页码，默认值 `1`
+
+#### size
+
+每页条数，默认值 `50`
 
 示例：
 
@@ -69,6 +77,8 @@ wdouban({
 ```
 
 ### 响应
+
+#### 正确响应
 
 示例：
 
@@ -170,6 +180,17 @@ wdouban({
       }
     }
   ]
+}
+```
+
+#### 报错响应
+
+示例：
+
+```js
+{
+  "status": 0,
+  "error": "Error Message"
 }
 ```
 
