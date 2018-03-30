@@ -7,15 +7,18 @@ DouBan SDK for node.js
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 **Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
 
-- [wdouban](#wdouban)
-  - [安装](#%E5%AE%89%E8%A3%85)
-  - [使用说明](#%E4%BD%BF%E7%94%A8%E8%AF%B4%E6%98%8E)
-    - [参数](#%E5%8F%82%E6%95%B0)
-      - [username](#username)
-      - [type](#type)
-      - [status](#status)
-    - [响应](#%E5%93%8D%E5%BA%94)
-  - [License](#license)
+- [安装](#%E5%AE%89%E8%A3%85)
+- [使用说明](#%E4%BD%BF%E7%94%A8%E8%AF%B4%E6%98%8E)
+  - [参数](#%E5%8F%82%E6%95%B0)
+    - [username](#username)
+    - [type](#type)
+    - [status](#status)
+    - [page](#page)
+    - [size](#size)
+  - [响应](#%E5%93%8D%E5%BA%94)
+    - [正确响应](#%E6%AD%A3%E7%A1%AE%E5%93%8D%E5%BA%94)
+    - [报错响应](#%E6%8A%A5%E9%94%99%E5%93%8D%E5%BA%94)
+- [License](#license)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
